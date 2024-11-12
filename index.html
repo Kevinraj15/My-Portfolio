@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Kevin Raj - Front-end Developer specializing in responsive web design and modern web technologies. Check out my portfolio and contact me.">
+    <link rel="icon" type="image/png" href="image/tabIcon.png.crdownload">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+                                   
+                       
+    <header>
+                                  <!-- navbar -->
+
+        <nav class="navbar">
+        <div class="brand" >Kevin</div>
+        <ul class="nav-links" >
+            <li class="underline-animation"><a href="#home" >Home</a>
+        </li>
+            <li class="underline-animation"><a href="#about">About</a>
+        </li>
+            <li class="underline-animation"><a href="#skill">Teck Stack</a>
+        </li>
+            <li class="underline-animation"><a href="#project">Projects</a>
+        </li>
+            <li class="underline-animation"><a href="#contact">Contact</a>
+        </li>
+        <li class="dark-light">
+            <i class="fa-solid fa-moon" id="darkness"></i>
+            <i class="fa-solid fa-sun" id="lightness" ></i>
+        </li>
+        <li>
+            <li id="sidebar-dash" onclick="sidebarShow()" ><img src="image/bars-solid.svg" width="20px"></a></li>
+
+        </li>
+        </ul>
+        <ul class="sidebar" >
+            <li id="sidebar-items" onclick="hideSidebar()" ><a href="#"><i class="fa-solid fa-xmark"></i></i></a></li>
+
+            <li id="sidebar-items" onclick="sidebarItems()"><a href="#home" >Home</a>
+        </li>
+            <li id="sidebar-items" onclick="sidebarItems()" ><a href="#about">About</a>
+        </li>
+            <li id="sidebar-items" onclick="sidebarItems()" ><a href="#skill">Teck Stack</a>
+        </li>
+            <li id="sidebar-items"  onclick="sidebarItems()"><a href="#project">Projects</a>
+        </li>
+            <li id="sidebar-items"  onclick="sidebarItems()"><a href="#contact">Contact</a>
+        </li>
+        </ul>
+
+        </nav>   
+                     
+                                        <!-- home-->
+       
+<main class="wrapper"  id="home">
+    <div class="details">
+    <div class="my-image"><img src="image/kevinImage.jpg"></div>
+    <div><h1> Front-End  Developer</h1></div>
+    <div class="para-details">
+    <p>Hi,I'm Kevin Raj .A Passionate Front-End Developer<br> specializing in responsive site development</p>
+    </div>
+
+
+    <span>
+                <a href="https://www.linkedin.com/in/kevin-raj252/" ><i class="fa-brands fa-linkedin" ></i></a>
+                <a href="https://github.com/Kevinraj15" ><i class="fa-brands fa-square-github"></i></a>
+    </span>
+    <div class="button">
+    <button class="resume" download><a href="image/kevin@resume.pdf">Resume <i class="fa-solid fa-scroll"></i></a></button>
+    </div>
+    </div>
+</main>
+
+
+
+    </header>
+
+
+
+                                        <!-- About -->
+  <h1  class="hidden-about" id="about"></h1>
+                                       
+    <main class="info" >
+    <section >
+        <img src="image/lap-desk.png">
+
+
+        <div class="about-my">
+            <h2 >About Me</h2>
+
+            <h3>Front-end developer</h3>
+
+
+    
+            <p >Hi, I'm Kevin, a dedicated Front-end Developer with a passion for crafting visually appealing and responsive websites.<br><br>
+                I have created multiple websites to continuously enhance my design and development skills. My goal is to deliver seamless user
+                experiences by combining clean code, modern design principles, and the latest web technologies.</p>
+            </div>
+    </section>
+    </main>
+
+                                        <!-- Skill -->
+
+    <h1 id="skill" class="hidden-teck"></h1>
+
+    <main class="my-skills">
+        <h1 >Teck Stack</h1>
+
+        <p>As a front-end developer, I enjoy spending the entire day learning and trying out innovative technologies and creative approaches.</p>
+
+    <div class="list-box">
+    <div class="skill-box">
+        <div class="box">
+            <img src="image/html.png"  >
+            <h4>HTML</h4>
+        </div>
+
+        <div class="box">
+            <img src="image/css.png"  >
+            <h4>CSS</h4>
+        </div>
+
+        <div class="box">
+            <img src="image/javascript.png" >
+            <h4>JAVASCRIPT</h4>
+        </div>
+
+        <div class="box">
+            <img src="image/bootstrap.png" >
+            <h4>BOOTSTRAP</h4>
+        </div>
+
+        <div class="box">
+            <img src="image/git.png"  >
+            <h4>GIT</h4>
+        </div>
+
+        <div class="box">
+            <img src="image/github.png" >
+            <h4>GITHUB</h4>
+        </div>
+    </div>
+    </main>
+
+                                        <!-- project -->
+
+    <h1 id="project" class="hidden-project"></h1>
+
+    <main class="project">
+    <h1>Some of My Works</h1>
+    <div class="pack-project">
+        <div class="types-project">
+            <div class="innercard">
+            <span><pre>Calculator                             </pre></span>
+            <span class="card-icon">
+                <a href="https://github.com/Kevinraj15/Simple_Calculator"><i class="fa-brands fa-github" ></i></a>
+                <a href="https://kevinraj15.github.io/Simple_Calculator/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </span>
+            </div>
+            <img src="image/calculater.png" >
+        </div>
+
+
+        <div class="types-project" id="To-Do-Task">
+        <div class="innercard">
+            <span><pre>To-Do Task                           </pre></span>
+            <span class="card-icon">
+                <a href="https://github.com/Kevinraj15/To-Do-Task"><i class="fa-brands fa-github" ></i></a>
+                <a href="https://kevinraj15.github.io/To-Do-Task/"> <i class="fa-solid fa-up-right-from-square"></i></a>
+            </span>
+            </div>
+           <img src="image/To-Do list.png">
+        </div>
+
+
+        <div class="types-project">
+            <div class="innercard">
+            <span><pre>Aalog clock                          </pre></span>
+            <span  class="card-icon">
+                <a href="https://github.com/Kevinraj15/Analog-clock"><i class="fa-brands fa-github" ></i></a> 
+                <a href="https://kevinraj15.github.io/Analog-clock/"><i class="fa-solid fa-up-right-from-square"></i></a></span>
+            </div>
+            <img src="image/analog.png">
+        </div>
+
+        <div class="types-project">
+            <div class="innercard">
+            <span ><pre>Inc & Exp Tracker          </pre></span>
+            <span class="card-icon">
+                <a href="https://github.com/Kevinraj15/Income-Expense-Tracker"><i class="fa-brands fa-github" ></i></a>
+                <a href="https://kevinraj15.github.io/Income-Expense-Tracker/"><i class="fa-solid fa-up-right-from-square"></i></a></span>
+            </div>
+            <img src="image/inc & Exp.png">
+        </div>
+
+
+    <div class="types-project">
+        <div class="innercard">
+            <span ><pre>Quick Notes                        </pre></span>
+            <span class="card-icon">
+                <a href="https://github.com/Kevinraj15/Quick-notes"><i class="fa-brands fa-github" ></i></a>
+                <a href="https://kevinraj15.github.io/Quick-notes/"> <i class="fa-solid fa-up-right-from-square"></i></a></span>
+            </div>
+            <img src="image/Quick.png">
+        </div> 
+
+
+    <div class="types-project">
+        <div class="innercard">
+            <span><pre>Finding Age                         </pre></span>
+            <span class="card-icon">
+                <a href="https://github.com/Kevinraj15/Finding-Age"><i class="fa-brands fa-github" ></i></a>
+                <a href="https://kevinraj15.github.io/Finding-Age/"><i class="fa-solid fa-up-right-from-square"></i></a></span>
+            </div>
+            <img src="image/age.png">
+        </div>
+</div>   
+</main>
+
+                                    <!-- contact -->
+
+<h1 class="hidden-contact" id="contact"></h1>
+<br><br><br>
+<section class="contact" >
+
+    <form action="https://api.web3forms.com/submit" method="POST" >
+        <h1>Contact me</h1>
+        <br>
+ <!-- Replace with your Access Key -->
+ <input type="hidden" name="access_key" value="4cf70656-2b91-49c8-8c7b-1beefaf7c4ff">
+        <div>
+            <input type="text" placeholder="   Name"  required>
+        </div>
+
+        <div>
+            <input type="email" placeholder="   Enter Email"  required>
+        </div>
+
+        <div>
+            <textarea  placeholder=" Your Message" name=" Your Message" required > </textarea>
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+</section>
+
+                                    <!-- footer -->
+
+
+<br><br>
+    <footer>
+        <h2>portfolio</h2>
+
+        <section class="icons">
+        <div>
+           <a href="https://www.linkedin.com/in/kevin-raj252/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div > 
+            <a href="https://github.com/Kevinraj15" class="github"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+        <div> 
+        <a href="https://x.com/KevinRaj252" class="twitter" > <i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+    </section>
+
+    <div class="phone-email" >
+        <a href="mailto:kevinraj252@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span> kevinraj252@gmail.com</span>
+        </a><br>
+    
+        <a href="tel:6374808138">
+            <i class="fa-solid fa-phone"></i>
+            <span> 6374808138</span>
+        </a>
+    </div>
+    
+
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
